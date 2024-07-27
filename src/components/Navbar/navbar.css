@@ -24,8 +24,9 @@
 }
 
 .nav-item{
-    margin-right: 1rem;
+    margin-right: 2rem;
     position: relative;
+    text-align: center;
 }
 
 .div-innecesario{
@@ -51,7 +52,7 @@
 }
 
 .logo{
-    width: 100px;
+    width: 140px;
 }
 
 /* a {
