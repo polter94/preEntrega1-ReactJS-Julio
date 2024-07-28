@@ -28,27 +28,18 @@ const Navbar = () => {
                 {/* <a href="">Shooters</a> */}
                 <GiGlock size={31}/>
                 <p>Shooters</p>
-                <div>
-
-                </div>
               </Link>
 
               <Link to="/categorias/aventura" className="nav-item">
                 {/* <a href="">Aventura</a> */}
                 <GiSlashedShield size={31}/>
                 <p>Aventura</p>
-                <div>
-
-                </div>
               </Link>
 
               <Link to="/categorias/carreras" className="nav-item">
                 {/* <a href="">Carreras</a> */}
                 <GiCheckeredFlag size={31}/>
                 <p>Carreras</p>
-                <div>
-
-                </div>
               </Link>
 
             </ul>
