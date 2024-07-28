@@ -10,12 +10,12 @@ function App() {
     <Navbar />
 
     <Routes>
-      <Route path="/" element={<ItemListContainer saludo="fsjal"/>} />
-      <Route path="/categorias/:idCategoria" element={ <ItemListContainer saludo={" se ingreso a una ruta"} /> } />
+      <Route path="/" element={<ItemListContainer saludo="Saludos, esta en el inicio"/>} />
+      <Route path="/categorias/:idCategoria" element={ <ItemListContainer saludo={" se ingreso a la ruta: ???"}/> } />
     </Routes>
 
     </BrowserRouter>
   )
 }
 
-export default App
+export default App;
