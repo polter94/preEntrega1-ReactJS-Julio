@@ -12,7 +12,7 @@ function App() {
 
     <Routes>
       <Route path="/" element={<ItemListContainer saludo="Saludos, esta en el inicio"/>} />
-      <Route path="/categorias/:idCategoria" element={ <ItemListContainer saludo={" se ingreso a la ruta: ???"}/> } />
+      <Route path="/categorias/:idCategoria" element={ <ItemListContainer saludo={" se ingreso a la ruta: "}/> } />
       <Route path="/detalle/:id" element={ <ItemdetailContainer saludo={" se ingreso al detalle de un item"} /> } />
     </Routes>
 
