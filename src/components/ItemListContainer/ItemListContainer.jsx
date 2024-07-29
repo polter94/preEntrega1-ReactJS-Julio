@@ -1,13 +1,23 @@
 import { useState , useEffect } from "react"
 import obtenerProductos from "../../data/data"
+import "./itemListContainer.css"
+import ItemList from "./ItemList";
+import { useParams } from "react-router-dom";
 
 const itemListContainer = ( { saludo } ) => {
   const [productos, setProductos] = useState([]);
 
+  const { idCategoria } = useParams()
+
   useEffect (() => {
     obtenerProductos()
-    .then ((respuesta) => {
-      setProductos (respuesta);
+    .then ((grupo) => {
+      if(idCategoria){
+        const prodAgrupados = grupo.filter((producto) => producto.category === idCategoria )
+        setProductos(prodAgrupados)
+      }else{
+        setProductos (grupo);
+      }
     })
     .catch ((error) => {
       console.error(error);
@@ -15,19 +25,12 @@ const itemListContainer = ( { saludo } ) => {
     .finally (() => {
       console.log("promesa prometida");
     });
-  }, []);
+  }, [idCategoria]);
 
   return (
     <div>
-        <p>{saludo}</p>
-        {
-          productos.map( (producto) => (
-            <div key={producto.id}>
-              {/* <img src={producto.cover} alt="" /> */}
-              <p>{producto.title}</p>
-              <p>{producto.price}</p>
-            </div> ) )
-        }
+      <p>{saludo}</p>
+      <ItemList productos = {productos} />
     </div>
   )
 }

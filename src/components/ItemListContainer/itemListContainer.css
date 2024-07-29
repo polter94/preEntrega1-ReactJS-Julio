@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem;
+    gap: 1rem;
+}
+
+.card img {
+    width: 300px;
+}

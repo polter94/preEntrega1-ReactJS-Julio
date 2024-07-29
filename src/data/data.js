@@ -6,17 +6,17 @@ const productos = [
         price: "$12000" ,
         category: "shooter" ,
         stock: "" ,
-        cover: ""
+        cover: "/img/CoDModernWarfare2.jpg"
     },
     
     {
         id: "102" ,
         title: "Ready or Not" ,
-        desc: "$7000" ,
-        price: "" ,
+        desc: "" ,
+        price: "$7000" ,
         category: "shooter" ,
         stock: "" ,
-        cover: ""
+        cover: "/img/ReadyOrNot.jpg"
     },
     
     {
@@ -26,7 +26,7 @@ const productos = [
         price: "$3000" ,
         category: "shooter" ,
         stock: "" ,
-        cover: ""
+        cover: "/img/HouseOfTheDead.jpg"
     },
     
     {
@@ -36,7 +36,7 @@ const productos = [
         price: "$35000" ,
         category: "aventura" ,
         stock: "" ,
-        cover: ""
+        cover: "/img/BaldursGate3.jpg"
     },
     
     {
@@ -46,7 +46,7 @@ const productos = [
         price: "$55000" ,
         category: "aventura" ,
         stock: "" ,
-        cover: ""
+        cover: "/img/SpiderManRemastered.jpg"
     },
 
     {
@@ -56,17 +56,17 @@ const productos = [
         price: "$50000" ,
         category: "aventura" ,
         stock: "" ,
-        cover: ""
+        cover: "/img/EldenRing.jpg"
     },
     
     {
         id: "301" ,
-        title: "Need for Speed: Most Wanted" ,
+        title: "Need for Speed: Hot Pursuit Remastered" ,
         desc: "" ,
         price: "$5000" ,
         category: "carreras" ,
         stock: "" ,
-        cover: ""
+        cover: "/img/NeedForSpeedHotPursuitRemastered.jpg"
     },
     
     {
@@ -76,7 +76,7 @@ const productos = [
         price: "$12000" ,
         category: "carreras" ,
         stock: "" ,
-        cover: ""
+        cover: "/img/AssettoCorsaCompetizione.jpg"
     },
 
     {
@@ -86,7 +86,7 @@ const productos = [
         price: "$17000" ,
         category: "carreras" ,
         stock: "" ,
-        cover: ""
+        cover: "/img/ForzaHorizon5.jpg"
     }
 
 ]

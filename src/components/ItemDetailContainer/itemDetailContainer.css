@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+
+.cardDetail {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 2rem;
+    gap: 1rem;
+}
+
+.cardDetail img {
+    width: 300px;
+}

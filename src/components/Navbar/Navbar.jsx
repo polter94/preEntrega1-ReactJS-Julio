@@ -1,6 +1,6 @@
 import "./navbar.css";
 import CartWidget from "./CartWidget";
-import logo from "../../assets/eshop.jpg";
+import logo from "/public/img/eshop.jpg";
 import { Link } from "react-router-dom";
 import { GiGlock } from "react-icons/gi";
 import { GiSlashedShield } from "react-icons/gi";
