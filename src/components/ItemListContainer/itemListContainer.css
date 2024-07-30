@@ -4,11 +4,19 @@
 
 .card {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 2rem;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .card img {
-    width: 300px;
+    width: 230px;
+}
+
+.cardS {
+    color: #14213D;
+}
+.cardS:hover {
+    text-decoration: none;
+    color: #ff7d01;
 }
