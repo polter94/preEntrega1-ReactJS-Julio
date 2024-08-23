@@ -27,3 +27,14 @@
     text-decoration: none;
     color: #ff7d01;
 }
+
+.contador{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.contador button:hover{
+    color: #14213D;
+    background-color: #ff7d01;
+}
