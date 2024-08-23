@@ -1,4 +1,13 @@
+import ItemCount from "../ItemCount/ItemCount"
+
 const ItemDetail = ( { producto } ) => {
+    const agregarCarrito = (count) => {
+        const productoCarrito = {...producto, cantidad: count}
+
+        console.log(productoCarrito)
+        //proximamente esto sera utilizado para popular el carrito
+    }
+
     return (
         <div className="cardDetail">
             <div>
@@ -8,6 +17,7 @@ const ItemDetail = ( { producto } ) => {
             </div>
             <div>
                 <p>{producto.desc}</p>
+                <ItemCount stock={producto.stock} agregarCarrito={agregarCarrito}/>
             </div>
         </div>
     )
